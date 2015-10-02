@@ -22,6 +22,8 @@ checkall(){
         binarycheckfunc ${PKGACCT}
 }
 
+checkall
+
 #Giving the right permission to functions
 ${CHMOD} 755 $WGET $TAR $RM $CHMOD $MV $MKDIR
 
