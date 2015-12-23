@@ -11,7 +11,7 @@ PKGACCT=/scripts/pkgacct
 
 binarycheckfunc() {
    if [ ! -f $1 ]; then
-      echo " $1 Don't exist!  Exiting."
+      echo "$1 Doesn't exist!  Exiting."
       exit
    fi
 }
