@@ -7,7 +7,7 @@ export PATH='/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin'
 #Identifying Binaries to check if exist
 CHMOD=/bin/chmod
 MV=/bin/mv
-PKGACCT=/scripts/pkgacct
+PKGACCT=/usr/local/cpanel/scripts/pkgacct
 
 binarycheckfunc() {
    if [ ! -f $1 ]; then
