@@ -1,4 +1,5 @@
 #!/bin/bash
+# Take a backup for a reseller account by only providing reseller username
 
 echo "What's the reseller username?"
 read RESOWNER
